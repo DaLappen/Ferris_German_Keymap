@@ -49,10 +49,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                            KC_LCTL, KC_LALT, XXXXXXX, _______
   ),
   [NUM] = LAYOUT(
-    XXXXXXX,             KC_KP_7   , KC_KP_8   , KC_KP_9  ,  XXXXXXX, DE_PERC, DE_EQL,   DE_SLSH,  XXXXXXX, KC_DEL,
-    XXXXXXX,             KC_KP_4   , KC_KP_5   , KC_KP_6  ,  XXXXXXX, XXXXXXX, DE_PLUS,  DE_MINS , XXXXXXX, DE_ASTR,
-    KC_NUM_LOCK,         KC_KP_1   , KC_KP_2   , KC_KP_3  ,  KC_KP_0, XXXXXXX, XXXXXXX,  DE_BSLS, XXXXXXX, XXXXXXX,
-                                                 KC_LCTL,    _______, _______, _______
+    XXXXXXX,             KC_KP_7   , KC_KP_8   , KC_KP_9  ,  XXXXXXX,     DE_PERC, DE_EQL,   DE_SLSH,  XXXXXXX, KC_DEL,
+    XXXXXXX,             KC_KP_4   , KC_KP_5   , KC_KP_6  ,  KC_KP_DOT, XXXXXXX, DE_PLUS,  DE_MINS , XXXXXXX, DE_ASTR,
+    KC_NUM_LOCK,         KC_KP_1   , KC_KP_2   , KC_KP_3  ,  KC_KP_0,     XXXXXXX, XXXXXXX,  DE_BSLS, XXXXXXX, XXXXXXX,
+                                                 KC_LCTL,    _______,     _______, _______
   ),
   [BRACK] = LAYOUT(
     DE_TILD,             DE_LCBR   , DE_RCBR   , DE_AMPR,    DE_HASH,  XXXXXXX, XXXXXXX,   DE_QUOT,   DE_DQUO,   DE_QUES ,
